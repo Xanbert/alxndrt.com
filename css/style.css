@@ -1,0 +1,20 @@
+@media screen and (max-width: 1024px) 
+{   
+    .mdui-list-item
+    {
+        border-radius: 0 24px 24px 0;
+        margin-right: 10px;
+    }
+}
+.day
+{
+    visibility: visible;
+}
+.night
+{
+    visibility: hidden;
+}
+#bar-title
+{
+    font-size: large;
+}
