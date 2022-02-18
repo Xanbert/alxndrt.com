@@ -8,15 +8,15 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
         <!-- MDUI CSS -->
         <link rel="stylesheet" href="https://cdn.w3cbus.com/library/mdui/1.0.2/css/mdui.min.css"/>
-        <link rel="stylesheet" href="../css/style.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
         <title>Alxndrt 主页</title>
-        <link rel="shortcut icon" href="../assest/icon.png"> 
+        <link rel="shortcut icon" href="assest/icon.png"> 
         <script src="https://cdn.w3cbus.com/library/mdui/1.0.2/js/mdui.min.js"></script>
         <script src="https://kit.fontawesome.com/a2e6623437.js" crossorigin="anonymous"></script>
     </head>
     <body class="mdui-appbar-with-toolbar mdui-theme-accent-blue">
         <header class="mdui-appbar mdui-appbar-fixed" style="z-index:5000;">
-            <div class="mdui-toolbar" >
+            <div class="mdui-toolbar mdui-toolbar-light" >
                 <button class="mdui-btn mdui-btn-icon mdui-ripple" mdui-drawer="{target: '#drawer', swipe: true}">
                     <i class="mdui-icon material-icons">menu</i>
                 </button>
@@ -25,6 +25,9 @@
                 <button class="mdui-btn mdui-btn-icon mdui-ripple"  onclick="changeTheme()">
                     <i class="mdui-icon material-icons night">brightness_7</i>
                     <i class="mdui-icon material-icons day">brightness_4</i>
+                </button>
+                <button class="mdui-btn mdui-btn-icon mdui-ripple">
+                    <i class="mdui-icon material-icons">account_circle</i>
                 </button>
             </div>
             <div id="drawer" class="mdui-drawer mdui-drawer-close">
@@ -61,18 +64,22 @@
             <div class="mdui-col-md-9 mdui-col-xs-12 card-container">
                 <div class="mdui-card mdui-hoverable">
                     <div class="mdui-card-media">
-                        <img class="card-img" src="../assest/pic4.jpg">
+                        <img class="card-img" src="assest/pic4.jpg">
                     </div>
                     <div class="mdui-card-primary">
                         <div class="mdui-card-primary-title">Blog</div>
-                        <div class="mdui-card-primary-subtitle">Alexandrite的无聊日记</div>
+                        <div class="mdui-card-primary-subtitle">
+                            <?php
+                                echo "hello world";
+                            ?>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="mdui-col-md-3 mdui-col-xs-12 card-container">
                 <div class="mdui-card mdui-hoverable">
                     <div class="mdui-card-media">
-                        <img class="card-img" src="../assest/pic3.jpg">
+                        <img class="card-img" src="assest/pic3.jpg">
                     </div>
                     <div class="mdui-card-primary">
                         <div class="mdui-card-primary-title">Git</div>
@@ -83,7 +90,7 @@
             <div class="mdui-col-md-6 mdui-col-xs-12 card-container">
                 <div class="mdui-card mdui-hoverable">
                     <div class="mdui-card-media">
-                        <img class="card-img" src="../assest/pic2.png">
+                        <img class="card-img" src="assest/pic2.png">
                     </div>
                     <div class="mdui-card-primary">
                         <div class="mdui-card-primary-title">Drive</div>
@@ -94,7 +101,7 @@
             <div class="mdui-col-md-6 mdui-col-xs-12 card-container">
                 <div class="mdui-card mdui-hoverable">
                     <div class="mdui-card-media">
-                        <img class="card-img" src="../assest/pic1.jpg">
+                        <img class="card-img" src="assest/pic1.jpg">
                     </div>
                     <div class="mdui-card-primary">
                         <div class="mdui-card-primary-title">Friends</div>
@@ -104,6 +111,6 @@
             </div>
         </div>
     </body>
-    <script src="../js/color.js"></script>
-    <script src="../js/bar.js"></script>
+    <script src="js/color.js"></script>
+    <script src="js/bar.js"></script>
 </html>

@@ -60,3 +60,33 @@
 {
     box-shadow: none;
 }
+.write
+{
+    padding: 2%;
+    margin: 5%;
+    height: 80%;
+}
+#article
+{
+    height: 50vh; 
+}
+.btn
+{
+    margin: 2px;
+}
+.article-card
+{
+    padding: 0;
+    margin: 5%;
+}
+.article
+{
+    margin: 2vw;
+}
+@media screen and (max-width: 1024px)
+{
+    .article
+    {
+        margin: 5vw;
+    }
+}
