@@ -90,3 +90,12 @@
         margin: 5vw;
     }
 }
+.item-round
+{
+    border-radius: 24px;
+}
+.file
+{
+    padding: 0;
+    margin: 5%;
+}
