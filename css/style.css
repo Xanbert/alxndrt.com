@@ -6,15 +6,57 @@
         margin-right: 10px;
     }
 }
-.day
-{
-    visibility: visible;
-}
-.night
-{
-    visibility: hidden;
-}
 #bar-title
 {
     font-size: large;
+}
+.mdui-card
+{
+    border-radius: 6px;
+    padding: 0;
+}
+.mdui-container
+{
+    padding-top: 10px;
+}
+@media screen and (min-width: 1024px) {
+    .mdui-container
+    {
+        padding: 2%;
+        width: 80%;
+    }
+}
+.card-container
+{
+    padding:10px;
+}
+.card-img
+{
+    min-height: 100%;
+    max-height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.mdui-card-media
+{
+    height: 25vw;
+}
+@media screen and (max-width: 1024px)
+{
+    .mdui-card-media
+    {
+        height: 40vw;
+    }
+}
+.mdui-toolbar-light
+{
+    background: #fff;
+}
+.mdui-toolbar-dark
+{
+    background: rgb(48, 48, 48);
+}
+.no-shadow
+{
+    box-shadow: none;
 }
